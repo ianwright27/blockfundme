@@ -34,11 +34,11 @@ To run **BlockFundMe** locally, follow these steps:
    npm install
    ```
 3. Run the application:
-   `bash
- npm start
- `
+   ```
+   npm start
+   ```
    Make sure to have **MetaMask** installed for wallet interactions.
 
 ## Contributing
 
-Feel free to fork the repository and submit pull requests. All contributions are welcome! Check out the [issues](https://github.com/yourusername/blockfundme/issues) to see if there's anything you'd like to work on.
+Feel free to fork the repository and submit pull requests. All contributions are welcome! Check out the [issues](https://github.com/ianwright27/blockfundme/issues) to see if there's anything you'd like to work on.
