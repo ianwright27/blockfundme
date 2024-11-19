@@ -4,7 +4,7 @@ export default function NavBar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid d-flex align-items-center">
           <a className="navbar-brand" href="#">
-            BlockFundMe
+            <b>BFM</b>
           </a>
           <button
             className="navbar-toggler"
@@ -21,16 +21,19 @@ export default function NavBar() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                  `How it works`
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  `Features`
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link bg-success text-light" href="#">
+                <a
+                  className="nav-link bg-success text-light retro-btn my-retro-btn"
+                  href="#"
+                >
                   Does it cost anything?
                 </a>
               </li>
