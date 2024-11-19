@@ -117,7 +117,9 @@ const FundMe = () => {
   return (
     <div className="fund-me">
       <h1>{"Welcome to BlockFundMe! "}</h1>
-      <button onClick={connectWalletHandler}>Connect Wallet</button>
+      <button onClick={connectWalletHandler}>
+        {defaultAccount ? "Wallet Connected" : "Connect Wallet"}
+      </button>
       <p> Address: {defaultAccount} </p>
       {/* Status Messgage */}
       {transactionConfirmed && (
