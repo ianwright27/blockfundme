@@ -116,10 +116,10 @@ const FundMe = () => {
   };
   return (
     <div className="fund-me">
-      <button onClick={connectWalletHandler}>
+      <button className="connect-wallet" onClick={connectWalletHandler}>
         {defaultAccount ? "Wallet Connected" : "Connect Wallet"}
       </button>
-      <p> Address: {defaultAccount} </p>
+      <p> {defaultAccount && "Address:" + defaultAccount} </p>
       {/* Status Messgage */}
       {transactionConfirmed && (
         <p style={{ color: "green", fontWeight: "bold" }}>
