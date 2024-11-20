@@ -14,7 +14,7 @@ The **trustless nature** of the blockchain and the underlying smart contract ens
 - **Owner-Only Withdrawals:** Only the contract owner has the permission to withdraw the funds once the goal is met.
 - **Security & Transparency:** Blockchain and smart contract technologies ensure that funds are secure and that all transactions are recorded on-chain.
 
-![Featured Image 2](./public/images/preview.png)
+![Featured Image 2](./public/images/preview#1.png)
 
 ## Notes
 
